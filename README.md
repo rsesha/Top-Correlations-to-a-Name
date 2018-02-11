@@ -6,6 +6,7 @@ This function draws a correlation chart of the top "x" rows of a data frame that
 <b>Usage<br></b>
     top_correlation_to_name(stocks, column_name, searchstring, top=5)
 <br>
+<br>
 <b>Arguments <br></b>
 stocks: name of the dataframe that contains your time series data in this format: 
      rows = each stock ticker or productname or country or whatever that list of things that represents this data
@@ -15,6 +16,7 @@ search_string: name of the stock or country that you are searching for in the co
 top: the top "n" number of rows that is highly correlated to your country or stock or whatever you are comparing. It can be either:
     integer: this will mean that you want the top 5 or 10 rows that correlate well to your search name
     fraction: this will mean that you want any rows that have a correlation higher than this fraction to be displayed in your chart.
+<br>
 <br>
 <b>Example<br></b>
     top_correlation_to_name(df,'index','MSFT',5)
