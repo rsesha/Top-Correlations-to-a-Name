@@ -15,6 +15,7 @@ stocks: name of the dataframe that contains your time series data in this format
 1. rows = each stock ticker or productname or country or whatever that list of things that represents this data
 1. columns = time series data. For example, monthly sales change, daily stock returns or monthly CPI change for each country
 <br><b>CAUTION: MAKE SURE YOU DIFFERENCE THIS TIME SERIES DATA BEFORE DOING CORRELATIONS. OTHERWISE, YOU'LL GET SPURIOUS CORRELATIONS!!</b>
+
 column_name: name of the column in which the rows have a name. For example, stock tickers or country names, etc should be in this column.
 <br>
 search_string: name of the stock or country that you are searching for in the column_name above
